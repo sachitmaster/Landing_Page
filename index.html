@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px 0px;
+            padding: 0px 0px;
+            box-sizing: border-box;
+        }
+
+        .container1 {
+            background-image: url("Rectangle700.png");
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .para {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 4.5rem;
+            font-weight: 800;
+        }
+
+        .para1 {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 2.5rem;
+            margin-top: 1.2rem;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .para2 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 2.2rem;
+            margin: 3rem 0rem;
+        }
+
+        .para3 {
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            width: 78%;
+        }
+
+        .container3 {
+            background: #02A2DD;
+            display: flex;
+            margin-bottom: 2rem;
+        }
+
+        .card1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .para4 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .para5 {
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 1.3rem;
+            text-align: center;
+            color: white;
+            margin-top: 1rem;
+            padding: 0rem 5rem;
+        }
+
+        .img {
+            width: 50%;
+            height: auto;
+        }
+
+        .img1 {
+            margin-right: 5rem;
+        }
+
+        .img2 {
+            margin-left: 5rem;
+        }
+
+        .img3 {
+            display: none;
+        }
+        .container4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .para6 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 3rem;
+            text-align: center;
+            text-transform: uppercase;
+            color: #02A2DD;
+
+        }
+
+        @media screen and (max-width:768px) {
+            .para {
+                font-size: 4rem;
+            }
+
+            .para1 {
+                font-size: 1.7rem;
+            }
+
+            .container3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: none;
+            }
+
+            .card1 {
+                display: flex;
+                align-items: flex-start;
+                padding-left: 2rem;
+                padding-right: 4rem;
+            }
+
+            .para4 {
+                color: black;
+            }
+
+            .para5 {
+                color: black;
+                text-align: start;
+                padding: 0rem 0rem;
+            }
+
+            .img {
+                /* padding: 0rem 15rem; */
+                width: 60%;
+                height: 50vh;
+                margin-top: 2rem;
+            }
+
+            .img1 {
+                margin-right: 0rem;
+            }
+
+            .img2 {
+                margin-left: 0rem;
+                display: none;
+            }
+
+            .img3 {
+                display: block;
+            }
+            .para6{
+                color: black;
+                text-decoration: none;
+                line-height: 1.5rem;
+                font-size: 1rem;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            .para {
+                font-size: 2rem;
+            }
+
+            .para1 {
+                font-size: 1rem;
+                text-align: center;
+                width: 95%;
+            }
+
+            .para2 {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            .para3 {
+                width: 100%;
+                font-size: 1rem;
+            }
+
+            .card1 {
+                padding-left: 0rem;
+                padding-right: 0rem;
+                display: flex;
+                align-items: center;
+            }
+
+            .para4 {
+                font-size: 2rem;
+            }
+
+            .para5 {
+                font-size: 1rem;
+                padding-left: .5rem;
+                padding-right: .5rem;
+            }
+
+            .img {
+                width: 70%;
+                height: 35vh;
+            }
+            .para6{
+                line-height: 1.1rem;
+                font-size: .8rem;
+                padding-left: .5rem;
+                padding-right: .5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <p class="para">AboutUs</p>
+        <p class="para1">WE ARE THE ONES THAT SHAPE YOUR PROJECTS.</p>
+    </div>
+    <div class="container2">
+        <p class="para2">We support Start-ups to get started.</p>
+        <p class="para3">We provide education and tools to support future founders as they get started:including
+            education, business planning, mentorship, customer acquisition, funding, and staffing.</p>
+    </div>
+    <div class="container3">
+        <div class="card1">
+            <p class="para4"><u>Our Mission</u></p>
+            <p class="para5">The world needs more Founders. The world needs more startups. We have a mission to help do
+                both. </p>
+        </div>
+        <img src="image442.png" alt="image" class="img img1">
+    </div>
+    <div class="container3">
+        <img src="man-wooden-cubes-table-management-concept11.png" alt="image" class="img img2">
+        <div class="card1">
+            <p class="para4"><u>Our Vision</u></p>
+            <p class="para5">To assist clients in creating wealth and simplifying Projects.We embrace change and
+                creative thinking to produce the best practical results.We develop strong relationships and alliances to
+                ensure long-term success.</p>
+        </div>
+        <img src="man-wooden-cubes-table-management-concept11.png" alt="image" class="img img3">
+    </div>
+    <div class="container3">
+        <div class="card1">
+            <p class="para4"><u>Our Approach</u></p>
+            <p class="para5">Each project is unique, but they all start with one thing in common. We want to find out
+                everything: where you started. Where you want to go now..The only way to resolve an issue is to
+                understand it from all angles. </p>
+        </div>
+        <img src="man-wooden-cubes-table-management-concept12.png" alt="image" class="img img1">
+    </div>
+    <div class="container4">
+        <p class="para6"><u>Our mission is to empower Founders like you.</u></p>
+        <p class="para6"><u>Our mission is to help develop startup companies like yours.</u></p>
+    </div>
+</body>
+
+</html>
